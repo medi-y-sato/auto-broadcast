@@ -1,4 +1,4 @@
-FROM horiryota/ffmpeg
+FROM mediysato/ffmpeg-alpine
 
 COPY src.mp4 ./
 COPY start.sh ./
